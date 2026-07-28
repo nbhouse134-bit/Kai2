@@ -18,10 +18,10 @@ local Window = Rayfield:CreateWindow({
 ----------------------------------------------------------------------
 -- [TAB 1] หมวดหมู่: เสกของ
 ----------------------------------------------------------------------
-local ItemTab = Window:CreateTab("เสกของ", 4483362458)
+local ItemTab = Window:CreateTab("เสกของ lucky block", 4483362458)
 
 ItemTab:CreateButton({
-   Name = "ของกาเเล็คซี่",
+   Name = "ของกาเเล็คซี่ galaxy block",
    Callback = function()
        local Event = game:GetService("ReplicatedStorage"):FindFirstChild("SpawnGalaxyBlock")
        if Event then
@@ -38,7 +38,7 @@ ItemTab:CreateButton({
 })
 
 ItemTab:CreateButton({
-   Name = "ของธรรมดา",
+   Name = "ของธรรมดา normal lucky block",
    Callback = function()
        local Event = game:GetService("ReplicatedStorage"):FindFirstChild("SpawnLuckyBlock")
        if Event then
@@ -55,7 +55,7 @@ ItemTab:CreateButton({
 })
 
 ItemTab:CreateButton({
-   Name = "ของระดับสูง",
+   Name = "ของระดับสูง super lucky block",
    Callback = function()
        local Event = game:GetService("ReplicatedStorage"):FindFirstChild("SpawnSuperBlock")
        if Event then
@@ -72,7 +72,7 @@ ItemTab:CreateButton({
 })
 
 ItemTab:CreateButton({
-   Name = "ของระดับสีรุ้ง",
+   Name = "ของระดับสีรุ้ง rainbow block",
    Callback = function()
        local Event = game:GetService("ReplicatedStorage"):FindFirstChild("SpawnRainbowBlock")
        if Event then
@@ -91,7 +91,7 @@ ItemTab:CreateButton({
 ----------------------------------------------------------------------
 -- [TAB 2] หมวดหมู่: ผู้เล่น (Player Status & Cheats)
 ----------------------------------------------------------------------
-local PlayerTab = Window:CreateTab("ผู้เล่น", 4483362458)
+local PlayerTab = Window:CreateTab("ผู้เล่น player status", 4483362458)
 
 local Player = game.Players.LocalPlayer
 local UserInputService = game:GetService("UserInputService")
