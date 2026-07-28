@@ -5,7 +5,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "KaiYang Hub",
    LoadingTitle = "กำลังโหลด...",
-   LoadingSubtitle = "by gemini",
+   LoadingSubtitle = "by HARDCHANGE",
    ConfigurationSaving = {
       Enabled = false
    },
